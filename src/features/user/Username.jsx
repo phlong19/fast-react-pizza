@@ -1,4 +1,4 @@
-import { useSelector, useDispatch } from "@reduxjs/toolkit";
+import { useSelector } from "react-redux";
 
 function Username() {
   const username = useSelector((store) => store.user.username);

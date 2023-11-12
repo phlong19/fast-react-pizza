@@ -103,8 +103,7 @@ let fakeMenu = [
 ];
 
 function Menu() {
-  // const menu = useLoaderData();
-  const [menu, setMenu] = useState(fakeMenu);
+  const menu = useLoaderData();
 
   return (
     <ul className="divide-y-200 divide-y-2">
